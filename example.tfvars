@@ -1,0 +1,6 @@
+tfehostname = "tfe.example.com"
+oauthtoken = "123456789jkfdlshjtklrentjhvcui"
+githubidentifier = "amy-hashi/tfe-test"
+orgname = "loadtest"
+terraformversion = "0.11.14"
+workspacecount = "25"
