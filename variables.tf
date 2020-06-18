@@ -29,8 +29,9 @@ variable "terraformversion" {
   description = "Version of terraform to use in the created workspaces."
 }
 
-variable "githubidentifier" {
-  description = "Your github org and repo specified as :org/:repo"
+variable "githubidentifiers" {
+  description = "List of github org and repos specified as :org/:repo"
+  type = list(string)
 }
 
 variable "githubbranch" {
